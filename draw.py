@@ -9,23 +9,7 @@ landmarks = [[20.0, 20.0],
              [80.0, 20.0]]
 world_size = 100.0
 
-#
-# def draw_landmarks(landmarks):
-#     turtle.color("black")
-#     for landmark in landmarks:
-#         x, y = landmark[0], landmark[1]
-#         print x, y
-#         turtle.up()
-#         turtle.setposition(x, y)
-#         turtle.down()
-#         turtle.begin_fill()
-#         turtle.circle(10)
-#         turtle.end_fill()
-#         turtle.up()
-#     turtle.update()
-#
-# while True:
-#     draw_landmarks(landmarks)
+
 
 class painter(object):
     def __init__(self, world_size, landmarks, robot, particles):
